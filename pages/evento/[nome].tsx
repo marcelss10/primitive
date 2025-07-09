@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react';
 import { supabase } from '../../lib/supabase';
 import PhotoCard from '../../components/PhotoCard';
 
+export const dynamic = 'force-dynamic'; // impede o erro no build
+
 export default function Evento() {
   const router = useRouter();
   const { nome } = router.query as { nome: string };
