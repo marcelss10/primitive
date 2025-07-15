@@ -1,8 +1,5 @@
-// components/Footer.tsx
 export default function Footer() {
   return (
-    <footer className="bg-gray-400 ">
-
-    </footer>
+    <footer className="bg-black h-4 mt-12"></footer>
   );
 }
