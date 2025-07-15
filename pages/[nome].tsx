@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-import { listarFotosEvento } from '../../lib/supabaseClient';
+import { listarFotosEvento } from '../lib/supabaseClient';
 
 export default function Evento() {
   const router = useRouter();
